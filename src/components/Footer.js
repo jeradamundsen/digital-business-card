@@ -5,11 +5,14 @@ import { faLinkedin, faGithub, faTwitter, faInstagram } from "@fortawesome/free-
 
 export default function Footer(){
   return(
-    <footer>
-      <FontAwesomeIcon icon={faGithub} /> 
-      <FontAwesomeIcon icon={faLinkedin} />  
-      <FontAwesomeIcon icon={faTwitter} />   
-      <FontAwesomeIcon icon={faInstagram} />  
+    <div className="footer_div">
+      <footer>
+      <FontAwesomeIcon icon={faGithub} className="github"/> 
+      <FontAwesomeIcon icon={faLinkedin} className="linkedIn"/>  
+      <FontAwesomeIcon icon={faTwitter} className="twitter" />   
+      <FontAwesomeIcon icon={faInstagram} className="insta"/>  
     </footer>
+    </div>
+    
   )
 }
