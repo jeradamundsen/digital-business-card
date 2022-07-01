@@ -5,16 +5,20 @@ body {
   margin: 0;
   font-family: Inter, sans-serif;
   height: 100vh;
-  background-color: #1A1B21;
+  background: #23252C;
+  position: relative;
 }
+
 main{
   position: absolute;
-  top: 535px;
-  left: 152px;
+  top: 560px;
+  left: 235px;
   color:#FFFFFF;
   align-items: center;
   width: 247px;
   height: 201px;
+  background: #1A1B21;
+  margin: 0;
 }
 
 main div{
@@ -22,13 +26,25 @@ main div{
   line-height: 15.36px;
   font-size: 10.24px;
 }
-
+header{
+  position: relative;
+  width: 317px;
+  margin: 0;
+  padding: 0;
+  height: 399px;
+  left: 116px;
+  top: 0;
+  
+}
 .header_img{
   position: absolute;
   width: 317px;
   height: 317px;
   left: 116px;
   top: 44px;
+  background: #1A1B21;
+  margin: 0;
+  padding: 0;
 }
 .header_name{
   position: absolute;
@@ -36,23 +52,31 @@ main div{
   color: #FFFFFF;
   font-weight: 700;
   font-size: 25px;
-  top: 382px;
-  left: 186px;
   line-height: 30.26px;
-  
-
+  background: #1A1B21;
+  width: 317px;
+  height: 60px;
+  top: 350px;
+  left: 106px;
+  padding: 10px;
+  margin: 10px;
+  padding-top: 30px;
 }
 .header_title{
   position: absolute;
   text-align: center;
   color:  #F47D27;
   top: 414px;
-  left: 186px;
+  left: 116px;
+  width: 317px;
+  height: 60px;
   font-weight: 400;
   font-style: normal;
   font-size: 12.8px;
   line-height: 15.49px;
-  
+  background: #1A1B21;
+  margin: 0; 
+  padding-top: 10px;
 }
 .header_link{
   position: absolute;
@@ -65,15 +89,16 @@ main div{
   font-size: 10.24px;
   line-height: 15.36px;
   font-weight: 400;
-  
+  background: #1A1B21;
 }
 footer{
   position:absolute;
   color: #918E9B;
-  
-  top: 89.75%;
-  left: 52.18%;
-
+  width: 317px;
+  height: 64px;
+  left: 235px;
+  top: 830px;
+  background: #161619;
 }
 .buttons_main{
   position: absolute;
@@ -87,9 +112,11 @@ footer{
   align-items: center;
   padding: 9px 13px 9px 11px;
   gap: 8px;
-  width: 100%;
-  left: 151px;
-  top: 468px;
+  width: 314px;
+  left: 235px;
+  top: 520px;
+  background: #1A1B21;
+  margin: 0;
 }
 .button_mail{
   background: #FFFFFF;
